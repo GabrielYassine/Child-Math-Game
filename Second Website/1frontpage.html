@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fwiend Test</title>
+    <link rel="stylesheet" href="css/generel.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Cinnamoroll.webp" style="
+        bottom: 0;
+        right: -8rem;
+        transform: rotate(-20deg) scale(2);">
+        <div class="header">
+            TOP WEASONS WHY IM THE BWESTEST OF FWIENDS
+        </div>
+        <div class="description">
+            You have tho anshwer yesh or no tho a coupwe of shtatemenths, okay? be advished thhath your anshwersh wiww impacth our futhure fwiendshhip
+        </div>
+        <a href="1statement.html">
+            <button class="start-button" onclick="resetLocalStorage()">
+                STAWT
+            </button>
+        </a>
+    </div>
+    <script>
+        function resetLocalStorage() {
+            localStorage.removeItem("agreecount");
+            localStorage.removeItem("answerlist");
+            localStorage.removeItem("falselist");
+            localStorage.removeItem("truecount");
+        }
+    </script>
+</body>
+</html>
