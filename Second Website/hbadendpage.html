@@ -15,9 +15,8 @@
         <i class="fas fa-home fa-lg" style="color: #ffffff;"></i>
     </div>
     <div class="resultcontainer">
-        <img src="Cinnamoroll2.gif">
-        <div class="header" style="margin-top: 17rem;">
-            YOU STWOOPID
+        <div class="header" style="margin-top: 10rem; margin-bottom: 5rem;">
+            Nice try! Incorrect answer/answers listed below
         </div>
     </div>
     <script>
@@ -33,16 +32,16 @@
 
         let falselist = [];
         let responses = [
-        "How can you not agwee with my being the bwest gamerbwuddy, i witterly have so much sabr with bad pwayers, and i support my fwiends when they do somesing good.",
-        "Awe you delulu???, i witterly qwack the funniest jokes hihihi.",
-        "I bwing snax wiw me to scwool ewyday, and i witterly wemember one day i gaw like haf my m&ms to my fwiends, especwially a fatty cawwed Amalia.",
-        "WHAT DO YOU MEAN IM NOT AN ALPHA, my mowning wutine witterly stawts wiw 10 howls, and cwaw sharpening, AWUUUUU.",
-        "Im witterly so gud at weage og wegends iths inthane, i witterly told you im diamond 1, das witterly leth then 1% if pwayerbase *Eats dorito that fell on the ground*.",
-        "WHAT! BAKA!, im witterly gowdon wamsay, u pwobably never had my fwood.",
-        "I can pwoove im the most helpfull bwuddy, *Aggresively pulls your feet close to me, sniff them closely, and starts rubbing them*.",
-        "Im sowwy if ive been wesponding in 0,2 seconds instewd of my wusial 0,1 seconds, pwease forgiw me.",
-        "I witterly newer say anysing mean ow huwtfull, you are witterly lying bwow.",
-        "U pwobably bwind in boff eyes, im witterly 6 foot, some would ewen say im 6'1."
+        "3 + 5 = 8 was correct",
+        "7 - 2 = 5 and not 4",
+        "4 + 1 = 5 was correct",
+        "9 - 5 = 4 and not 3",
+        "6 + 2 = 8 and not 9",
+        "8 - 3 = 5 was correct",
+        "3 + 2 = 5 and not 6",
+        "10 - 4 = 6 was correct",
+        "2 + 6 = 8 was correct",
+        "12 - 7 = 5 and not 6"
         ];
 
         for (let i = 0; i < answerlist.length; i++) {
@@ -61,7 +60,6 @@
                     descriptionDiv.textContent = selectedResponse;
                     resultContainer = document.querySelector(".resultcontainer");
                     resultContainer.appendChild(descriptionDiv);
-
                     handleResponse();
                 }
             }
